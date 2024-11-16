@@ -1,0 +1,81 @@
+<html>
+<head>
+ 
+    <title>Delicias & Manjarex</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu-diario">Menú</a></li>
+                <li><a href="#por-encargo">Encargo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://facebook.com/deliciasymanjarex" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/deliciasymanjarex" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="assets/logoBlack.png" alt="Logo Delicias & Manjarex" class="logo">
+            <h1 class="tagline">Sabores que conquistan tu corazón</h1>
+            <img src="assets/comida.png" alt="Deliciosa selección de comida casera" class="hero-image">
+        </div>
+    </section>
+
+    <section id="menu-diario" class="menu-diario">
+        <div class="menu-card">
+            <h2 class="tagline">Descubre nuestros platos para hoy:</h2>
+            <img src="assets/menu.jpg" alt="Carta del menú diario" width="600" height="800" class="menu-image">
+        </div>
+    </section>
+    
+    <!-- Modal -->
+    <div id="menu-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="assets/menu.jpg" alt="Carta del menú diario en detalle" class="modal-image">
+        </div>
+    </div>
+    
+
+    <section id="por-encargo" class="por-encargo">
+        <div class="por-encargo-content">
+            <h2  class="tagline">¿Tienes un evento especial ?</h2>
+            <p>Consulta nuestra carta por encargo</p>
+            <a href="porEncargo.html" class="cta-button">Haz click aquí</a>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contact-content">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i>Teléfono: 681 88 39 31</p>
+                <p><i class="fas fa-envelope"></i>deliciasymanjarex@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i>Avd. Ruta de la Plata, 26, Cáceres</p>
+                <p><i class="fas fa-clock"></i>Horario: 11:00 - 16:00 <br> (Martes cerrado)</p>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicias & Manjarex. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
